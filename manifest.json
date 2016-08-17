@@ -1,0 +1,14 @@
+{
+  "name": "COCETの効率をあげるやつ",
+  "short_name": "COCET",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "タイトル通り、COCETの効率をあげてくれます。操作方法等は、@kao-carrotのreadmeで。",
+  "content_scripts": [
+    {
+      "matches": ["http://w5.linguaporta.jp/*"],
+      "js": ["script.js"],
+	  "run_at": "document_start"
+    }
+  ]
+}
