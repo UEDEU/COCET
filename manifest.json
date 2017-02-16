@@ -1,9 +1,9 @@
 {
-  "name": "COCETの効率をあげるやつ",
+  "name": "COCET",
   "short_name": "COCET",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "タイトル通り、COCETの効率をあげてくれます。操作方法等は、@kao-carrotのreadmeで。",
+  "description": "成美堂リンガポルタ レッドゲートで学習できる内容の補助ツールです。COCET2600「単語の意味」で選択肢として与えられる複数のラジオボタンに左からキーボードの数字キーと対応するようになっています。エンターキー、スペースキーで次の問題へ進むことができます。",
   "content_scripts": [
     {
       "matches": ["http://w5.linguaporta.jp/*"],
