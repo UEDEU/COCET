@@ -1,14 +1,26 @@
 {
   "name": "COCET",
   "short_name": "COCET",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "manifest_version": 2,
-  "description": "成美堂リンガポルタ レッドゲートで学習できる内容の補助ツールです。COCET2600「単語の意味」で選択肢として与えられる複数のラジオボタンに左からキーボードの数字キーと対応するようになっています。エンターキー、スペースキーで次の問題へ進むことができます。",
+  "description": "成美堂リンガポルタ レッドゲートでの補助ツールです。GitHub: https://github.com/kao-carrot/COCET",
+  "options_page": "help.html",
   "content_scripts": [
     {
-      "matches": ["http://w5.linguaporta.jp/*"],
+      "matches": ["https://w5.linguaporta.jp/*"],
       "js": ["script.js"],
 	  "run_at": "document_start"
     }
-  ]
+  ],
+  "web_accessible_resources": [
+    "embeded-script.js"
+  ],
+  "permissions": [
+    "https://w5.linguaporta.jp/"
+  ],
+  "homepage_url": "https://w5.linguaporta.jp/user/seibido/index.php",
+  "icons": { "16": "16.png",
+             "32": "32.png",
+             "48": "48.png",
+             "128": "128.png" }
 }
