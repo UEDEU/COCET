@@ -18,7 +18,7 @@ window.onload = function () {
         s.setAttribute('src', file);
         return th.appendChild(s);
     };
-    injectScript(chrome.extension.getURL('/embeded-script.js'), 'body');
+    injectScript(chrome.extension.getURL('/embeddedNextSetScript.js'), 'body');
 
 }
 

@@ -1,26 +1,33 @@
 {
-  "name": "COCET",
-  "short_name": "COCET",
-  "version": "2.0.0",
+
   "manifest_version": 2,
-  "description": "成美堂リンガポルタ レッドゲートでの補助ツールです。GitHub: https://github.com/kao-carrot/COCET",
-  "options_page": "help.html",
+  "name": "COCET",
+  "version": "2.1.0",
+ 
+  "description": "成美堂リンガポルタ レッドゲートでの補助ツールです。",
+  
+  "icons": { "16": "icon/16.png",
+             "32": "icon/32.png",
+             "48": "icon/48.png",
+             "128": "icon/128.png" },
+  "homepage_url": "https://github.com/kao-carrot/COCET",
+
   "content_scripts": [
     {
-      "matches": ["https://w5.linguaporta.jp/*"],
-      "js": ["script.js"],
+      "matches": ["*://w5.linguaporta.jp/*"],
+      "js": ["selectScript.js"],
 	  "run_at": "document_start"
     }
   ],
-  "web_accessible_resources": [
-    "embeded-script.js"
-  ],
-  "permissions": [
-    "https://w5.linguaporta.jp/"
-  ],
-  "homepage_url": "https://w5.linguaporta.jp/user/seibido/index.php",
-  "icons": { "16": "16.png",
-             "32": "32.png",
-             "48": "48.png",
-             "128": "128.png" }
+  
+  "web_accessible_resources": ["embeddedNextSetScript.js"],
+
+  "permissions": ["*://w5.linguaporta.jp/*"],
+  
+  "browser_action": {
+    "default_icon": "icon/32.png",
+    "default_title": "COCET",
+    "default_popup": "pages/popup.html"
+  }
+
 }
