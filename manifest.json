@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "COCET",
-  "version": "2.1.0",
+  "version": "2.2.1",
  
   "description": "成美堂リンガポルタ レッドゲートでの補助ツールです。",
   
@@ -15,12 +15,12 @@
   "content_scripts": [
     {
       "matches": ["*://w5.linguaporta.jp/*"],
-      "js": ["selectScript.js"],
+      "js": ["script.js"],
 	  "run_at": "document_start"
     }
   ],
   
-  "web_accessible_resources": ["embeddedNextSetScript.js"],
+  "web_accessible_resources": ["embeddedScript.js"],
 
   "permissions": ["*://w5.linguaporta.jp/*"],
   

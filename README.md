@@ -33,5 +33,10 @@ nキーを押す -> 次の「単語の意味」のセットへ移動
 4. パッケージ化されていない拡張機能を読み込む
 5. コードのあるディレクトリを選択
 
+## 導入方法（Firefox）
+
+こちらからどうぞ  
+https://addons.mozilla.org/ja/firefox/addon/snct-cocet/
+
 ## License
 This software is released under the MIT License, see LICENSE.  
