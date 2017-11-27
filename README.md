@@ -35,8 +35,10 @@ nキーを押す -> 次の「単語の意味」のセットへ移動
 
 ## 導入方法（Firefox）
 
-こちらからどうぞ  
-https://addons.mozilla.org/ja/firefox/addon/snct-cocet/
+~~こちらからどうぞ  ~~
+~~https://addons.mozilla.org/ja/firefox/addon/snct-cocet/~~
+外部スクリプト周りで、公開が止められちゃっています  
+手が空き次第、修正します...  
 
 ## License
 This software is released under the MIT License, see LICENSE.  
