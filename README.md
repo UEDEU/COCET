@@ -1,7 +1,7 @@
 # COCET
 
 ## GitHub
-https://github.com/kao-carrot/COCET
+https://github.com/nyan-salmon/COCET
 
 ## できること
 [COCET](http://redgate.linguaporta.jp/)「単語の意味」のマウス操作が非常に面倒と感じたので、ラジオボタンに左から1~5に割り振って、対応するキーを押すと勝手に選択してくれます。  
@@ -24,23 +24,17 @@ nキーを押す -> 次の「単語の意味」のセットへ移動
 
 ## 導入方法 (Chrome）
   
-ストアからダウンロードしていない拡張機能は、再起動すると強制的に無効化されるらしいので、ソースコードを適当なディレクトリに落として、Chromeをデベロッパーモードに切り替えて読み込んでもらうといいみたいです。  
-
-手順は、  
-1. Chrome起動
-2. chrome://extensions/ をURL欄へ
-3. 右上のデベロッパーにチェックを入れる
-4. パッケージ化されていない拡張機能を読み込む
-5. コードのあるディレクトリを選択
+  こちらからどうぞ
+  
+  https://chrome.google.com/webstore/detail/jlcoompambeojngaafkbbdiankhmphld/
 
 ## 導入方法（Firefox）
 
-~~こちらからどうぞ  
+こちらからどうぞ
 
-~~https://addons.mozilla.org/ja/firefox/addon/snct-cocet/~~
+https://addons.mozilla.org/ja/firefox/addon/snct-cocet/
 
-外部スクリプト周りで、公開が止められちゃっています  
-手が空き次第、修正します...  
 
 ## License
-This software is released under the MIT License, see LICENSE.  
+This software is released under the MIT License, see LICENSE.
+Icon: Created by Freepik

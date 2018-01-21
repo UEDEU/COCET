@@ -2,15 +2,15 @@
 
   "manifest_version": 2,
   "name": "COCET",
-  "version": "2.2.2",
- 
+  "version": "2.3.1",
+
   "description": "成美堂リンガポルタ レッドゲートでの補助ツールです。",
-  
+
   "icons": { "16": "icon/16.png",
              "32": "icon/32.png",
              "48": "icon/48.png",
              "128": "icon/128.png" },
-  "homepage_url": "https://github.com/kao-carrot/COCET",
+  "homepage_url": "https://github.com/nyan-salmon/COCET",
 
   "content_scripts": [
     {
@@ -19,11 +19,11 @@
 	  "run_at": "document_start"
     }
   ],
-  
+
   "web_accessible_resources": ["embeddedScript.js"],
 
   "permissions": ["*://w5.linguaporta.jp/*"],
-  
+
   "browser_action": {
     "default_icon": "icon/32.png",
     "default_title": "COCET",

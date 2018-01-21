@@ -1,4 +1,4 @@
-//  2017.09 @kao-carrot
+//  2017.09 @nyan-salmon
 
 window.onload = function () {
     // 問題ページであれば
